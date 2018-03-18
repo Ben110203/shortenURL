@@ -8,7 +8,7 @@ URLdict = {"abc":"www.google.com.tw"}
 def reponse(path):
     return  flask.redirect(getURL(path))
 
-def getURL(url)
+def getURL(url):
 
     try:
 
