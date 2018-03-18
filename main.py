@@ -10,7 +10,7 @@ def reponse(path):
 
 def getURL(url):
     if URLdict.get(url,None)!= None:
-        return URLdict[url]
+        return flask.redirect(URLdict[url])
     else:
         return None
 
